@@ -36,7 +36,7 @@ public class AudioManager
     private final AudioPlayer audioPlayer;
     private final TrackHandler listener;
     private final LocalAudioOutput output;
-    
+
     public AudioManager()
     {
         playerManager = new DefaultAudioPlayerManager();
@@ -48,7 +48,7 @@ public class AudioManager
         audioPlayer.addListener(listener);
         output = new LocalAudioOutput(audioPlayer, AudioDataFormatTools.toAudioFormat(playerManager.getConfiguration().getOutputFormat()));
     }
-    
+
     public void search(String input)
     {
         playerManager.loadItemOrdered(listener, input, new AudioLoadResultHandler()
@@ -81,7 +81,7 @@ public class AudioManager
             }
         });
     }
-    
+
     public void shutdown()
     {
         output.shutdown();

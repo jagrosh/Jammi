@@ -35,15 +35,15 @@ public interface KeyListener extends NativeKeyListener
 
         // disable the parent handlers.
         logger.setUseParentHandlers(false);
-        
+
         GlobalScreen.registerNativeHook();
     }
-    
+
     public static void registerKeyListener(KeyListener listener)
     {
         GlobalScreen.addNativeKeyListener(listener);
     }
-    
+
     @Override
     public default void nativeKeyTyped(NativeKeyEvent event) {}
 
@@ -52,6 +52,6 @@ public interface KeyListener extends NativeKeyListener
 
     @Override
     public default void nativeKeyReleased(NativeKeyEvent event) { onKey(event.getKeyCode()); }
-    
+
     public void onKey(int keyCode);
 }

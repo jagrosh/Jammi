@@ -1,6 +1,8 @@
 /target/
 /test/
 nb*.xml
+server/target/
+client/target/
 
 #YouCompleteMe generated files
 .classpath

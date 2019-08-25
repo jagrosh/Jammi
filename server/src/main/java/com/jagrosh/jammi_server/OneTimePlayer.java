@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.jagrosh.jammi;
+package com.jagrosh.jammi_server;
 
-import com.jagrosh.jammi.audio.AudioManager;
+import com.jagrosh.jammi_server.audio.AudioManager;
 
 /**
  *

@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.jagrosh.jammi;
+package com.jagrosh.jammi_server;
 
 import java.net.*;
 import java.io.*;
 
-import com.jagrosh.jammi.audio.AudioManager;
+import com.jagrosh.jammi_server.audio.AudioManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

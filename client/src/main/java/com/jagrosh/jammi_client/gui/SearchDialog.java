@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.jagrosh.jammi.gui;
+package com.jagrosh.jammi_client.gui;
 
-import com.jagrosh.jammi.hotkey.KeyListener;
+import com.jagrosh.jammi_client.hotkey.KeyListener;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import javax.swing.JDialog;
